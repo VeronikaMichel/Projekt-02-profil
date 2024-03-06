@@ -19,3 +19,107 @@ body {
   background-color: #bdc3c7;
 }
 
+.montserrat-regular {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "MyFirstFont";
+  src: url(fonts/SourceSansPro-Regular.otf);
+}
+
+.profil {
+  width: 300px;
+  height: 670px;
+  position: relative;
+  border: #31363b;
+  background-color: #31363b;
+  font-family: "MyFirstFont";
+  margin: 20px 0 150px 20px;
+  color:#bdc3c7;
+  box-shadow: 4px 6px 15px #3f464d;
+}
+
+.foto {
+  width:300px;
+}
+
+.logo {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  background-color: #b92e81;
+  border-radius: 50%;
+  top: 175px;
+  right: 40px;
+}
+
+.obsah {
+  padding: 25px;
+}
+
+.jmeno {
+  font-family:"Montserrat";
+  color: white;
+  font-size:25px;
+}
+
+.odkazy {
+  list-style: none;
+  font-family: "Montserrat";
+  font-weight: bold;
+  text-align: center;
+}
+.odkazy a {
+  text-decoration: none;
+  color:#bdc3c7;
+}
+
+.portfolio {
+  position: absolute;
+  width: 300px;
+  height: 50px;
+  bottom: 50px;
+  left: 0;
+  padding-top: 12.5px;
+  border-top: #3f464d thin solid;
+  border-bottom: #3f464d thin solid ;
+  
+}
+a:hover {
+  color:white;
+}
+.portfolio:hover {
+  background-color: #e74c3c;
+}
+
+.facebook {
+  position: absolute;
+  left: 0;
+  bottom:0;
+  width: 150px;
+  height: 50px;
+  padding-top: 12.5px;
+  border-right:#3f464d thin solid;
+}
+
+.facebook:hover {
+  background-color: #3b5998;
+}
+
+.twitter {
+  position: absolute;
+  right:0;
+  bottom: 0;
+  width: 150px;
+  height: 50px;
+  padding-top: 12.5px;
+}
+
+.twitter:hover {
+  background-color:#1da1f2;
+}
+
